@@ -1,0 +1,41 @@
+
+/* Style The Dropdown Button */
+
+/* djm colors are RedGreenBlue # designates hex with ff the max so #ff0000 equates to all red, 0 green, 0 blue
+   
+   or can name the colors: red, green, blue, orange, yellow, cyan, black
+   or can expand the color scheme, the following is blue background, with white foreground text
+   background-color:blue;color:white
+   background-color: #4CAF50;
+*/ 
+h1 {
+    margin-left: 20px;
+}
+
+.dropbtn { background-color: rgb(75, 145, 226); color: white; padding: 16px; font-size: 16px; border: none; cursor: pointer; min-width: 150px;}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown { position: relative; display: inline-block;}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content { display: none; position: absolute; background-color: rgb(167, 168, 168); min-width: 250px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); }
+
+/* Links inside the dropdown */
+.dropdown-content a { color: black; padding: 12px 16px; text-decoration: none; display: block; }
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {background-color: rgb(75, 145, 226)} 
+
+/*.dropdown-content a:hover {background-color: #0000f1} */ 
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content { display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover 
+.dropbtn { background-color: rgb(75, 145, 226); }
